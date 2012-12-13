@@ -1,0 +1,3 @@
+-define(INFO(Format, Args),error_logger:info_msg("~p: ~p "++Format, [?MODULE,self()]++Args)).
+-define(WARN(Format, Args),error_logger:warning_msg("~p: ~p "++Format, [?MODULE,self()]++Args)).
+-define(ERROR(Format, Args),error_logger:error_msg("~p: ~p "++Format, [?MODULE,self()]++Args)).

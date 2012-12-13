@@ -1,0 +1,12 @@
+2008-11-18  Alvin.Lee  <alvin.msg@gmail.com>
+
+	* add driver for hmac with sha256,handshake process passed
+
+2008-11-17  Alvin.Lee  <alvin.msg@gmail.com>
+
+	* add autoconf/automake build system.
+
+2008-11-16  Alvin.Lee  <alvin.msg@gmail.com>
+
+	* src/ria_nc.erl: add fms3 handshake process,thanks rubyizumi.
+
